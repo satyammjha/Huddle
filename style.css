@@ -1,0 +1,711 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+
+body {
+  background-color: white;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  list-style: none;
+}
+ul li img {
+  margin-left: 22%;
+}
+ul #btn {
+  margin-left: 60%;
+}
+ul li button {
+  color: hsl(321, 100%, 78%);
+  background: none;
+  padding: 9px 30px;
+  border-radius: 40px;
+  border: 2px solid hsl(321, 100%, 78%);
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+ul li button:hover {
+  border: 2px solid hsl(321, 92%, 54%);
+  color: hsl(321, 92%, 54%);
+}
+
+/*Home*/
+#home {
+  text-align: center;
+  margin-top: 10%;
+}
+#home h2 br {
+  display: none;
+}
+#home h2 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 35px;
+}
+#home #mainpara p {
+  color: hsla(192, 100%, 9%, 0.76);
+  margin-top: 4px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+#home #mainpara {
+  margin-top: 20px;
+}
+#mainbtn {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 70px;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  color: whitesmoke;
+  margin-top: 40px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 250px;
+  transition: 0.3s ease;
+}
+#mainbtn:hover {
+  background-color: hsl(321, 92%, 72%);
+}
+#homeimg {
+  margin-top: 15%;
+  margin-left: 6.5%;
+  align-content: center;
+}
+
+/*HomeData*/
+#home #homedata .descp {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: lightslategray;
+}
+
+#homedata {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 28%;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  margin-left: 13px;
+}
+#home #homedata #number1 {
+  margin-left: 10px;
+}
+
+#dataitem1 {
+  display: flex;
+  flex-direction: column;
+}
+#dataitem2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22rem;
+}
+
+#home {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/*MiddleSection*/
+
+#middle {
+  margin-top: 10%;
+}
+#middlecontent1 {
+  display: flex;
+  margin-left: 80px;
+}
+#middlecontent1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  margin-left: 97px;
+  color: hsl(192, 100%, 9%);
+}
+#middlecontentdescp {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-left: 103px;
+  font-size: 20px;
+  color: hsla(192, 100%, 9%, 0.76);
+}
+#middletextcontent {
+  align-self: center;
+  margin-right: 130px;
+}
+
+#middle #middlecontent2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 18%;
+}
+#middlecontent2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  margin-left: 97px;
+  color: hsl(192, 100%, 9%);
+}
+#middlecontent2 #middlecontentdescp {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-left: 103px;
+  font-size: 20px;
+  color: hsla(192, 100%, 9%, 0.76);
+}
+#middlecontent2 #middletextcontent {
+  align-self: center;
+  margin-right: 90px;
+}
+#phone-flowing-conv {
+  display: none;
+}
+#phone-youruser-conv {
+  display: none;
+}
+#middlecontent3 {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 18%;
+}
+#middlecontent3 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  margin-left: 97px;
+  color: hsl(192, 100%, 9%);
+}
+#middlecontent3 #middlecontentdescp {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin-left: 103px;
+  font-size: 20px;
+  color: hsla(192, 100%, 9%, 0.76);
+}
+#middletextcontent {
+  align-self: center;
+  margin-right: 130px;
+}
+
+#middleendhead {
+  margin-left: 29%;
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+#middlebtn {
+  font-family: "Poppins", sans-serif;
+  padding: 18px 85px;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 16px;
+  border: none;
+  border-radius: 33px;
+  color: whitesmoke;
+  margin-top: 50px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 38%;
+  transition: 0.3s ease;
+  margin-bottom: 10%;
+}
+#middlebtn:hover {
+  background-color: hsl(321, 92%, 72%);
+}
+
+/*Footer*/
+footer {
+  background-color: hsl(192, 100%, 9%);
+  height: 560px;
+  margin-top: 0px;
+  display: flex;
+}
+#footerleft {
+  margin-left: 115px;
+  margin-top: 67px;
+}
+#footerlogo {
+  display: flex;
+}
+#footerlogo h2 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+#footerimage {
+  width: 100%;
+  margin-bottom: -5px;
+  margin-top: 350px;
+}
+#footerleft img {
+  margin-bottom: 20px;
+}
+#footerleft p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  font-weight: 500;
+}
+#footerleft #phone {
+  display: flex;
+  flex-direction: row;
+}
+#phone p {
+  margin-top: -4px;
+}
+#footerleft #phone {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+#footerleft #email {
+  display: flex;
+  margin-top: 15px;
+}
+#email p {
+  margin-top: -5px;
+}
+
+#sociallogos {
+  margin-top: 50px;
+}
+#sociallogos a {
+  color: white;
+  font-size: 35px;
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+#sociallogos #facebook:hover {
+  color: rgb(6, 122, 239);
+}
+#sociallogos #instagram:hover {
+  color: rgb(222, 7, 90);
+}
+#sociallogos #twitter:hover {
+  color: rgb(0, 187, 255);
+}
+#sociallogos #github:hover {
+  color: #171515;
+}
+
+#footerright {
+  margin-top: 67px;
+  margin-left: 520px;
+}
+footer #footerright h3 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+#footerright > h3 {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#footerright {
+  font-family: "Open Sans", sans-serif;
+}
+#fontrightdescp p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+#footersubscribe {
+  margin-top: 50px;
+}
+
+#footersubscribe #subscribebtn {
+  font-family: "Poppins", sans-serif;
+  padding: 9px 33px;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+  color: whitesmoke;
+  margin-top: 0px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 3%;
+  transition: 0.3s ease;
+  margin-bottom: 10%;
+}
+
+#footersubscribe #subscribebtn:hover {
+  background-color: hsl(321, 92%, 72%);
+}
+
+#footersubscribe #emailinput {
+  padding: 10px 33px;
+  border-radius: 7px;
+  border: none;
+}
+#footersubscribe input {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-style: 20px;
+  border: none;
+}
+
+.attribution {
+  margin-top: -90px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.attribution a {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 74%, 37%);
+}
+#emailresult {
+  color: green;
+  font-family: "Poppins", sans-serif;
+  margin-top: 7px;
+  margin-left: 18px;
+  display: none;
+}
+#checkicon {
+  margin-top: 1px;
+  position: absolute;
+  margin-left: 5px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+#footerphoneimg {
+  display: none;
+}
+
+/*CSS for Responsiveness*/
+
+@media screen and (max-width: 400px) {
+  html {
+    overflow-x: hidden;
+  }
+  #home {
+    width: max-content;
+  }
+  #mainlogo {
+    height: 60px;
+    margin-top: 30px;
+  }
+  ul li button {
+    width: max-content;
+    font-size: 40px;
+    margin-left: 130%;
+    margin-top: 30px;
+  }
+
+  #homeimg {
+    margin-top: 40%;
+    margin-left: 0.5%;
+    height: 734px;
+  }
+
+  #mainbtn {
+    padding: 31px 80px;
+    font-size: 45px;
+    margin-top: 141px;
+    margin-left: 205px;
+    transition: 0.3s ease;
+    width: max-content;
+    border-radius: 60px;
+  }
+
+  #home h2 {
+    font-size: 85px;
+    margin-left: 4%;
+    margin-top: 19%;
+  }
+  #home h2 br {
+    display: block;
+  }
+
+  #home #mainpara {
+    margin-top: 36px;
+    margin-left: 56px;
+    font-size: 37px;
+  }
+  #homedata {
+    flex-direction: column;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 190px;
+    margin-left: -28%;
+  }
+  #home #homedata #number1 {
+    margin-left: -154px;
+  }
+  #homedata #dataitem1 img {
+    height: 109px;
+    width: 160px;
+    margin-left: 180px;
+  }
+  #dataitem1 {
+    margin-left: -224px;
+    margin-bottom: 100px;
+    margin-top: 122px;
+  }
+
+  #home #homedata .descp {
+    font-size: 51px;
+    margin-top: -32px;
+    margin-left: -154px;
+  }
+
+  #dataitem2 {
+    margin-left: -5rem;
+    margin-top: 210px;
+  }
+
+  #homedata #dataitem2 img {
+    margin-left: 51px;
+    height: 105px;
+    width: 121px;
+  }
+
+  #middlecontent1 img {
+    width: 560px;
+    height: 550px;
+  }
+
+  #middlecontent1 {
+    flex-direction: column-reverse;
+    margin-left: 30px;
+    margin-left: 85%;
+  }
+
+  #middlecontent1 img {
+    margin-top: 100%;
+    margin-left: 95%;
+  }
+  #middlecontent1 br {
+    display: none;
+  }
+  #middlecontent1 {
+    margin-left: 20%;
+    text-align-last: center;
+  }
+  #middlecontent1 h2 {
+    margin-top: 57px;
+    font-size: 125px;
+    margin-left: 333px;
+    width: 131%;
+    margin-top: 10%;
+  }
+  #phone-flowing-conv {
+    display: block;
+    height: 550px;
+    width: 200%;
+    margin-top: 70%;
+    margin-left: 66%;
+  }
+  #middlecontent1 #middletextcontent p {
+    display: block;
+    width: 155%;
+    font-size: 43px;
+    margin-left: 24%;
+  }
+  #middlecontent2 p {
+    display: block;
+    width: 216%;
+    font-size: 43px;
+    margin-left: 56%;
+  }
+
+  #middlecontent2 h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 87px;
+
+    color: hsl(192, 100%, 9%);
+    width: 167%;
+    margin-left: 80%;
+  }
+  #middlecontent3 img {
+    display: none;
+  }
+  #phone-youruser-conv {
+    display: flex;
+    height: 550px;
+    width: 200%;
+    margin-top: 33%;
+    margin-left: 72%;
+  }
+
+  #middlecontent3 h2 {
+    font-size: 140px;
+    margin-left: 168px;
+
+    width: 172%;
+  }
+
+  #middlecontent3 #middlecontentdescp p {
+    width: 252%;
+    font-size: 49px;
+    margin-left: -23%;
+  }
+
+  #middleendhead {
+    width: 305%;
+    font-size: 115px;
+    margin-left: 66px;
+    margin-top: 38%;
+    text-align: center;
+  }
+
+  #middlebtn {
+    width: 242%;
+    font-size: 70px;
+    margin-left: 43%;
+  }
+
+  #footerimage {
+    width: 332%;
+    margin-bottom: -5px;
+    margin-top: 350px;
+  }
+  footer {
+    margin-top: -2px;
+    display: flex;
+    width: 332%;
+    flex-direction: column-reverse;
+    height: 1550px;
+  }
+  #footerimage {
+    display: none;
+  }
+  #footerphoneimg {
+    display: block;
+    width: 332%;
+    margin-bottom: -5px;
+    margin-top: 350px;
+  }
+
+  #footerright {
+    margin-left: 90px;
+  }
+  footer #footerright h3 {
+    font-size: 90px;
+  }
+  #fontrightdescp p {
+    margin-top: 15px;
+
+    line-height: 43px;
+
+    font-size: 35px;
+    margin-bottom: 7%;
+  }
+  #footersubscribe {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  #footersubscribe #emailinput {
+    padding: 25px 51px;
+    border-radius: 7px;
+    border: none;
+    width: 80%;
+    font-size: 37px;
+  }
+
+  #footersubscribe #subscribebtn {
+    font-family: "Poppins", sans-serif;
+    padding: 15px 35px;
+    font-size: 41px;
+    margin-left: 186%;
+    margin-bottom: 10%;
+    margin-top: 37%;
+  }
+
+  #footerlogo {
+    margin-top: 103px;
+  }
+
+  #footerleft #footercustomicon {
+    margin-bottom: -53px;
+    height: 100px;
+  }
+
+  #footerlogo h2 {
+    font-size: 113px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: -48px;
+  }
+
+  #footerleft p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  #contact {
+    margin-top: 67px;
+    margin-bottom: 80px;
+  }
+
+  #footerleft img {
+    margin-bottom: 20px;
+    height: 40px;
+  }
+
+  #sociallogos {
+    margin-top: 0px;
+    margin-bottom: 30%;
+  }
+  .attribution {
+    margin-top: -130px;
+    width: max-content;
+    margin-left: 164px;
+    font-size: 30px;
+  }
+
+  #emailresult {
+    color: green;
+    font-family: "Poppins", sans-serif;
+    margin-top: 116px;
+    margin-left: 45px;
+    display: none;
+    position: absolute;
+    font-size: 50px;
+    width: 115%;
+  }
+
+  #checkicon {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 900;
+  }
+  ion-icon {
+    font-size: 80px;
+  }
+}
